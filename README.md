@@ -1,6 +1,4 @@
-Here’s an updated **README.md** file with detailed sections on **methods used for deblurring and super-resolution**, a breakdown of the **architecture**, and an explanation of **metrics and their significance**.
 
----
 
 # **Deblurring and Super-Resolution using GANs on GoPro Large Dataset**
 ![Sample Results](image.png)
