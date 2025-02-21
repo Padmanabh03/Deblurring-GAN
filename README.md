@@ -126,7 +126,7 @@ The model’s performance is evaluated using **three key metrics**:
 ## 📌 **Visualization**
 ### **Example Output**
 ![Witcher](witcher.png)
-![Deblurred](deblur.png)
+![Deblurred](deblur.png) 
 
 ---
 
