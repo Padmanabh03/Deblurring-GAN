@@ -106,15 +106,18 @@ The model’s performance is evaluated using **three key metrics**:
 
 ---
 
-### **Deblurring vs Super-Resolution**
-| Metric | Deblurred Image | Super-Resolved Image |
-|--------|----------------|----------------------|
-| **MSE** | 0.9505 | 0.0148 |
-| **PSNR (dB)** | 0.22 | 18.30 |
-| **SSIM** | -0.1121 | 0.7207 |
+### **Blurred vs Deblurred vs Super-Resolved**
+| Metric           | Blurred Image | Deblurred Image | Super-Resolved Image |
+|-----------------|--------------|----------------|----------------------|
+| **MSE**        | 0.9505       | 0.0591         | 0.0148               |
+| **PSNR (dB)**  | 0.22         | 17.2           | 18.30                |
+| **SSIM**       | -0.1121      | 0.694          | 0.7207               |
 
 💡 **Interpretation:**  
-- The **super-resolution step significantly improves sharpness**, as shown by the higher SSIM.
+- **Deblurring significantly reduces the MSE**, increasing perceptual quality.  
+- **PSNR improves after deblurring and further increases with super-resolution**, showing enhanced sharpness.  
+- **SSIM improvement indicates that both deblurring and super-resolution help in restoring structural similarity to the ground truth.**  
+- The **super-resolution step improves sharpness**, as shown by the higher SSIM.
 - **Deblurring alone doesn't guarantee fine detail restoration**, which is why the **combined pipeline (DeblurGAN + ESRGAN) performs best**.
 
 
