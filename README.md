@@ -125,9 +125,8 @@ The model’s performance is evaluated using **three key metrics**:
 
 ## 📌 **Visualization**
 ### **Example Output**
-| Blurred Image | Deblurred Image | Super-Resolved Image | Ground Truth |
-|--------------|---------------|----------------------|--------------|
-| ![Blurred](blurred.jpg) | ![Deblurred](deblur.png) | ![Super-Resolved](super_resolved.jpg) | ![Ground Truth](sharp.jpg) |
+![Witcher](witcher.png)
+![Deblurred](deblur.png)
 
 ---
 
