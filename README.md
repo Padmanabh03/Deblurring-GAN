@@ -117,7 +117,6 @@ The model’s performance is evaluated using **three key metrics**:
 - **Deblurring significantly reduces the MSE**, increasing perceptual quality.  
 - **PSNR improves after deblurring and further increases with super-resolution**, showing enhanced sharpness.  
 - **SSIM improvement indicates that both deblurring and super-resolution help in restoring structural similarity to the ground truth.**  
-- The **super-resolution step improves sharpness**, as shown by the higher SSIM.
 - **Deblurring alone doesn't guarantee fine detail restoration**, which is why the **combined pipeline (DeblurGAN + ESRGAN) performs best**.
 
 
